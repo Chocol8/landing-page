@@ -125,4 +125,31 @@ p{
 .box-text{
     text-align: center;
 }
+
+/* quote */
+.quote-container{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    gap: 10px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-owner{
+    display: flex;
+    justify-content: end;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
 }
