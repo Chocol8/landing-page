@@ -151,5 +151,42 @@ p{
     font-weight: 800;
 }
 
+/* sign up */
+.signup-container{
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    justify-content: space-between;
+}
 
+.signup-text{
+    color: #FFF;
+}
+
+.text_1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-2{
+    background-color: #3882F6;
+    max-width: 15%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border-color:#FFF;
+    border-style: solid;
+    border-width: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 }
