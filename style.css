@@ -1,0 +1,87 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+a{
+    /* this removes the line under the links */
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul{
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+}
+
+p{
+    margin: 0;
+}
+
+/* header css */
+
+.header-container{
+    background-color: #1F2937;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5em;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 2em;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.header-links{
+    display: flex;
+    gap: 2em;
+    font-size: 18px;
+}
+
+.hero-container{
+    display: flex;
+    gap: 10px;
+}
+
+.image-container, .hero-text{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+#hero-image{
+    max-height: 250px; 
+}
+
+.hero-main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.secondary-text{
+    color: #E5E7EB;
+}
+
+.sign{
+    background-color: #3882F6;
+    max-width: 15%;
+    color: #fff;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
