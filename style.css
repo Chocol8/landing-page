@@ -189,4 +189,23 @@ p{
     padding-left: 30px;
     padding-right: 30px;
 }
+
+/* footer */
+.footer{
+    background-color: #1F2937;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color: #FFF;
+    text-align: center;
 }
